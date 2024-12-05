@@ -11,7 +11,7 @@ const handler = async (m, {command, conn}) => {
     const result = anu[Math.floor(Math.random() * anu.length)];
     const haha = result.image[0];
     await conn.reply(m.chat, global.wait, m);
-    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      🇾🇪_ *الجنہـــــرال* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
+    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      _ *ستيف بوت* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
   }
 
   if (command == 'بوبجي') {
@@ -21,7 +21,7 @@ const handler = async (m, {command, conn}) => {
     const result = anu[Math.floor(Math.random() * anu.length)];
     const haha = result.image[0];
     await conn.reply(m.chat, global.wait, m);
-    conn.sendMessage(m.chat, {image: {url: haha}, caption: `_*╮ ───═┅─┅─┅═─── ╭*      🇾🇪_ *الجنہـــــرال* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*_`.trim()}, {quoted: m});
+    conn.sendMessage(m.chat, {image: {url: haha}, caption: `_*╮ ───═┅─┅─┅═─── ╭*      _ *ستيف بوت* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*_`.trim()}, {quoted: m});
   }
 
   if (command == 'الفسفور') {
@@ -31,7 +31,7 @@ const handler = async (m, {command, conn}) => {
     const result = anu[Math.floor(Math.random() * anu.length)];
     const haha = result.image[0];
     await conn.reply(m.chat, global.wait, m);
-    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      🇾🇪_ *الجنہـــــرال* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
+    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      _ *ستيف بوت* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
   }
 
   if (command == 'خلفيات') {
@@ -39,13 +39,13 @@ const handler = async (m, {command, conn}) => {
     const result = anu[Math.floor(Math.random() * anu.length)];
     const haha = result.image[0];
     await conn.reply(m.chat, global.wait, m);
-    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      🇾🇪_ *الجنہـــــرال* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
+    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      _ *ستيف بوت* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
   }
 
   if (command == 'خلفيات2') {
     const res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/wprandom.json`)).data;
     const res2 = await res[Math.floor(res.length * Math.random())];
-    conn.sendMessage(m.chat, {image: {url: res2}, caption: `*╮ ───═┅─┅─┅═─── ╭*      🇾🇪_ *الجنہـــــرال* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
+    conn.sendMessage(m.chat, {image: {url: res2}, caption: `*╮ ───═┅─┅─┅═─── ╭*      _ *ستيف بوت* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
   }
 
   if (command == 'coffee') {
@@ -59,7 +59,7 @@ const handler = async (m, {command, conn}) => {
     const result = anu[Math.floor(Math.random() * anu.length)];
     const haha = result.image[0];
     await conn.reply(m.chat, global.wait, m);
-    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      🇾🇪_ *الجنہـــــرال* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
+    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      _ *ستيف بوت* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
   }
 
   if (command == 'كاركتير') {
@@ -67,7 +67,7 @@ const handler = async (m, {command, conn}) => {
     const result = anu[Math.floor(Math.random() * anu.length)];
     const haha = result.image[0];
     await conn.reply(m.chat, global.wait, m);
-    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      🇾🇪_ *الجنہـــــرال* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
+    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      _ *ستيف بوت* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
   }
 
   if (command == 'سبايسو') {
@@ -75,7 +75,7 @@ const handler = async (m, {command, conn}) => {
     const result = anu[Math.floor(Math.random() * anu.length)];
     const haha = result.image[0];
     await conn.reply(m.chat, global.wait, m);
-    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      🇾🇪_ *الجنہـــــرال* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
+    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      _ *ستيف بوت* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
   }
 
   if (command == 'تكنولوجيا') {
@@ -83,7 +83,7 @@ const handler = async (m, {command, conn}) => {
     const result = anu[Math.floor(Math.random() * anu.length)];
     const haha = result.image[0];
     await conn.reply(m.chat, global.wait, m);
-    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      🇾🇪_ *الجنہـــــرال* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
+    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      _ *ستيف بوت* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
   }
 
   if (command == 'دورايمون') {
@@ -91,7 +91,7 @@ const handler = async (m, {command, conn}) => {
     const result = anu[Math.floor(Math.random() * anu.length)];
     const haha = result.image[0];
     await conn.reply(m.chat, global.wait, m);
-    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      🇾🇪_ *الجنہـــــرال* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
+    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      _ *ستيف بوت* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
   }
 
   if (command == 'هاكر') {
@@ -99,7 +99,7 @@ const handler = async (m, {command, conn}) => {
     const result = anu[Math.floor(Math.random() * anu.length)];
     const haha = result.image[0];
     await conn.reply(m.chat, global.wait, m);
-    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      🇾🇪_ *الجنہـــــرال* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
+    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*     _ *ستيف بوت* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
   }
 
   if (command == 'كوكب') {
@@ -107,7 +107,7 @@ const handler = async (m, {command, conn}) => {
     const result = anu[Math.floor(Math.random() * anu.length)];
     const haha = result.image[0];
     await conn.reply(m.chat, global.wait, m);
-    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      🇾🇪_ *الجنہـــــرال* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
+    conn.sendMessage(m.chat, {image: {url: haha}, caption: `*╮ ───═┅─┅─┅═─── ╭*      _ *ستيف بوت* \n* 😎. \n*╯ ───═┅─┅─┅═─── ╰*`.trim()}, {quoted: m});
   }
 
   if (command == 'randomprofile') {
