@@ -10,7 +10,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   const tradutor = _translate.plugins.downloader_playlist
 
 
-  if (!text) throw `${tradutor.texto1} \n*${usedPrefix + command} حمزة نمره فاضي شويه*`;
+  if (!text) throw `${tradutor.texto1} \n*${usedPrefix + command} ستيف نمره فاضي شويه*`;
   try {
     const vids_ = {
       from: m.sender,
