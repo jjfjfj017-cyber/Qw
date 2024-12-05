@@ -27,7 +27,7 @@ ${tradutor.texto1[1]}
 };
 handler.help = ['group open / close', 'grupo abrir / cerrar'];
 handler.tags = ['group'];
-handler.command = /^(group|جروب)$/i;
+handler.command = /^(group|قروب)$/i;
 handler.admin = true;
 handler.botAdmin = true;
 export default handler;
