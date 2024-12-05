@@ -14,6 +14,6 @@ async function handler(m, { conn }) {
 }
 handler.help = ['chatgpt']
 handler.tags = ['AI']
-handler.command = ['ai', 'بوت'] 
+handler.command = ['ai', 'بوووت'] 
 
 export default handler
