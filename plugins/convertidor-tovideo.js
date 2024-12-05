@@ -26,7 +26,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
       '-shortest',
     ], 'mp3', 'mp4');
   }
-  await conn.sendFile(m.chat, out, 'error.mp4', '*╮ ───═┅─┅─┅═─── ╭*      🇾🇪_ *الجنہـــــرال* \n*تم تحويل الملصق لفيديو* 😎. \n*╯ ───═┅─┅─┅═─── ╰*', m, 0, {thumbnail: out});
+  await conn.sendFile(m.chat, out, 'error.mp4', '*╮ ───═┅─┅─┅═─── ╭*      _ *ستيف* \n*تم تحويل الملصق لفيديو* . \n*╯ ───═┅─┅─┅═─── ╰*', m, 0, {thumbnail: out});
 };
 handler.help = ['tovideo'];
 handler.tags = ['sticker'];
