@@ -14,19 +14,19 @@ global.authFile = `MysticSession`;
 global.isBaileysFail = false
 
 global.owner = [
-  ['966578700193', '👑 ALI - OWNER 👑', true],
-  ['966551138192', '💫 BOT 💫', true],
+  ['967733123213', 'ستيف', true],
+  ['966565625279', 'ماس', true],
   
 ];
 
-global.suittag = ['966578700193'];
-global.prems = ['966578700193'];
+global.suittag = ['967733123213'];
+global.prems = ['967733123213'];
 
-global.packname = '🄰🄻🄸🄱🄾🅃';
+global.packname = 'ستيف';
 global.author = '𝚊𝚕𝚒𝚚𝚞𝚝𝚎𝚎𝚗𝚊𝚑';
-global.wm = '🄰🄻🄸🄱🄾🅃';
-global.titulowm = '🄰🄻🄸🄱🄾🅃';
-global.titulowm2 = `🄰🄻🄸🄱🄾🅃`
+global.wm = 'ستيف';
+global.titulowm = 'ستيف';
+global.titulowm2 = `ستيف`
 global.igfg = '𝔞𝔩𝔦 𝔮𝔲𝔱𝔢𝔢𝔫𝔞𝔥';
 global.wait = '*_[ ⏳ ] يرجى الإنتظــــار يتـم إرسال طلبــك 📲..._*';
 
