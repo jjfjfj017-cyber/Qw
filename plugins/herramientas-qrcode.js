@@ -8,7 +8,7 @@ const handler = async (m, {text, conn}) => {
   const tradutor = _translate.plugins.herramientas_qrcode
 
   if (!text) throw tradutor.texto1;
-  conn.sendFile(m.chat, await toDataURL(text.slice(0, 2048), {scale: 8}), 'qrcode.png', '💙الباركـود جاهـــز💙\n╮ ───═┅─┅─┅═─── ╭\n•🇾🇪_ علــي_قطينـــٓــة\n╯ ───═┅─┅─┅═─── ╰', m);
+  conn.sendFile(m.chat, await toDataURL(text.slice(0, 2048), {scale: 8}), 'qrcode.png', '💙الباركـود جاهـــز💙\n╮ ───═┅─┅─┅═─── ╭\n_ ستيف\n╯ ───═┅─┅─┅═─── ╰', m);
 };
 handler.help = ['', 'code'].map((v) => 'qr' + v + ' <teks>');
 handler.tags = ['tools'];
