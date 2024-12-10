@@ -21,7 +21,7 @@ jobs:
       - name: Install Deno
         uses: denoland/setup-deno@v2
         with:
-          deno-version: v1.x
+          deno-version: v2.x
 
       - name: Install Node.js
         uses: actions/setup-node@v4
@@ -29,16 +29,16 @@ jobs:
           node-version: lts/*
 
       - name: Install step
-        run: "deno install -gArf jsr:@deno/deployctl"
+        run: "npm install"
 
       - name: Build step
-        run: "deployctl deploy"
+        run: "npm run build"
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "wahhajb-qw-85"
-          entrypoint: "main.ts"
-          root: "."
+          project: "wahhajb-qw-26"
+          entrypoint: "https://deno.land/std@0.217.0/http/file_server.ts"
+          root: "out"
           
           
