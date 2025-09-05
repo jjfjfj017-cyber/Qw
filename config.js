@@ -14,13 +14,13 @@ global.authFile = `MysticSession`;
 global.isBaileysFail = false
 
 global.owner = [
-  ['967733123213', 'ستيف', true],
-  ['966565625279', 'ماس', true],
+  ['967778668253', 'ستيف', true],
+  ['967778668253', 'ماس', true],
   
 ];
 
-global.suittag = ['967733123213'];
-global.prems = ['967733123213'];
+global.suittag = ['967778668253'];
+global.prems = ['967778668253'];
 
 global.packname = 'ستيف';
 global.author = '𝚊𝚕𝚒𝚚𝚞𝚝𝚎𝚎𝚗𝚊𝚑';
